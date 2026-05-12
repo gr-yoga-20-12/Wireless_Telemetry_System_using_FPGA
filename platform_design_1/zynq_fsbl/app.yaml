@@ -1,0 +1,4 @@
+domain_path: E:\Vivado\projects\vitis\platform_design_1\zynq_fsbl\zynq_fsbl_bsp
+app_src_dir: E:\Vivado\2025.2\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

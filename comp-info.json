@@ -1,0 +1,22 @@
+{
+  "components": [
+    {
+      "hasAbsoluteProjectPath": true,
+      "extraPathToUnzip": [],
+      "prevProjectPath": "E:\\Vivado\\projects\\vitis\\component_design_1",
+      "name": "component_design_1",
+      "type": "HOST",
+      "embeddedPlatform": "platform_design_1"
+    },
+    {
+      "hasAbsoluteProjectPath": true,
+      "extraPathToUnzip": [],
+      "prevProjectPath": "E:\\Vivado\\projects\\vitis\\platform_design_1",
+      "name": "platform_design_1",
+      "type": "PLATFORM",
+      "embeddedPlatform": ""
+    }
+  ],
+  "system-project": [],
+  "com.ide.version": "2025.2"
+}

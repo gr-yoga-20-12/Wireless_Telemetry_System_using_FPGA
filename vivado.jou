@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon May 11 16:26:34 2026
+# Process ID         : 33136
+# Current directory  : C:/Users/Yogananth/AppData/Roaming/Xilinx/Vivado
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent29876
+# Log file           : C:/Users/Yogananth/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file       : C:/Users/Yogananth/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On         : Pavilion-14
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16832 MB
+# Swap memory        : 20433 MB
+# Total Virtual      : 37266 MB
+# Available Virtual  : 5445 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Vivado/projects/HDL_Project/HDL_Project.xpr
+update_compile_order -fileset sources_1
+archive_project E:/Vivado/projects/Yogananth_HDL_Project.xpr.zip -temp_dir C:/Users/Yogananth/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-27200-Pavilion-14 -force -include_local_ip_cache
+open_bd_design {E:/Vivado/projects/HDL_Project/HDL_Project.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_nets axi_gpio_0_gpio2_io_o]
+delete_bd_objs [get_bd_ports gpio2_io_o_0]
+startgroup
+set_property CONFIG.C_IS_DUAL {0} [get_bd_cells axi_gpio_0]
+endgroup
+save_bd_design
+archive_project E:/Vivado/projects/Yogananth_HDL_Project.xpr.zip -temp_dir C:/Users/Yogananth/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-27200-Pavilion-14 -force -include_local_ip_cache
